@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 <html>
-    <a href="test.php">go to test</a>
+    <a href="Category_main.php">go to test</a>
 
 
 
