@@ -1,0 +1,47 @@
+.category-search-wrapper ul {
+	list-style: none;
+}
+.category-search-wrapper ul li a {
+	font-family: 'noto_sansbold';
+	font-size: 12px;
+	color: #00704a;
+}
+.category-search-wrapper ul li a:hover {
+	color: #5ca943;
+}
+.category-search-wrapper ul li {
+	line-height: 32px;
+	padding-left: 34px;
+}
+.main-search-container {
+	margin-top: 33px;
+}
+.main-search-container .category-wrapper {
+	margin-left: -30px;
+	margin-bottom: 39px;
+}
+.main-search-wrapper .category {
+	width: 101px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 28px;
+	font-size: 11px;
+	font-family: 'latoblack';
+	line-height: 22px;
+	text-align: left;
+	position: relative;
+	margin-bottom:10px;
+}
+.main-search-wrapper .category span {
+	display: inline-block;
+}
+.main-search-wrapper .category .icheckbox_flat-green {
+	margin-top: 5px;
+}
+.main-search-wrapper h6 {
+	text-align: left;
+	padding-bottom: 15px;
+}
+.main-search-wrapper .category-wrapper h6 {
+	margin-left: 30px;
+}

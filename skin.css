@@ -1,0 +1,44 @@
+/* iCheck plugin Flat skin, green
+----------------------------------- */
+.icheckbox_flat-green,
+.iradio_flat-green {
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    background: url(green.png) no-repeat;
+    border: none;
+    cursor: pointer;
+	margin-right: 8px;
+}
+
+.icheckbox_flat-green {
+    background-position: 0 0;
+}
+    .icheckbox_flat-green.checked {
+        background-position: -16px 0;
+    }
+    .icheckbox_flat-green.disabled {
+        background-position: -44px 0;
+        cursor: default;
+    }
+    .icheckbox_flat-green.checked.disabled {
+        background-position: -66px 0;
+    }
+
+.iradio_flat-green {
+    background-position: -63px 0;
+}
+    .iradio_flat-green.checked {
+        background-position: -80px 0;
+    }
+    .iradio_flat-green.disabled {
+        background-position: -63px 0;
+        cursor: default;
+    }
+    .iradio_flat-green.checked.disabled {
+        background-position: -63px 0;
+    }
