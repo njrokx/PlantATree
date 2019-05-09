@@ -52,7 +52,7 @@ item(s) in your cart</p>
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<a class="logo" href="https://www.southernwoods.co.nz/" title="Southern Woods"><img src="treeco.png" alt="treeco" /></a>
+					<a class="logo"  title="Treeco"><img src="treeco.png" alt="treeco" /></a>
 				</div>
 			</div>
 			<div class="nav-wrapper">
@@ -68,7 +68,7 @@ item(s) in your cart</p>
 		</div>
 	</div>
 <div class="row">
-	<div class="col-xs-4"><div class="category-search-wrapper"><div class="heading">Plant Categories</div><ul><li><a href="https://www.southernwoods.co.nz/shop/deciduous/">Deciduous</a></li><li><a href="https://www.southernwoods.co.nz/shop/evergreen/">Evergreen</a></li><li><a href="https://www.southernwoods.co.nz/shop/native/">Native</a></li><li><a href="https://www.southernwoods.co.nz/shop/grass/">Grass &amp; Flax</a></li><li><a href="https://www.southernwoods.co.nz/shop/conifer/">Conifer</a></li><li><a href="https://www.southernwoods.co.nz/shop/edible/">Fruit &amp; Nut</a></li><li><a href="https://www.southernwoods.co.nz/shop/truffle/">Truffle</a></li><li><a href="https://www.southernwoods.co.nz/shop/shelter/">Shelter</a></li><li><a href="https://www.southernwoods.co.nz/shop/hedging/">Hedging</a></li><li><a href="https://www.southernwoods.co.nz/shop/timber/">Timber</a></li><li><a href="https://www.southernwoods.co.nz/shop/fuel-wood/">Fuel Wood</a></li><li><a href="https://www.southernwoods.co.nz/shop/ground-cover/">Ground Cover</a></li><li><a href="https://www.southernwoods.co.nz/shop/shrubs/">Shrubs</a></li><li><a href="https://www.southernwoods.co.nz/shop/trees/">Trees</a></li><li><a href="https://www.southernwoods.co.nz/shop/wetland/">Wetland</a></li><li><a href="https://www.southernwoods.co.nz/shop/packs/">Packs</a></li><li><a href="https://www.southernwoods.co.nz/shop/accessories/">Planting Accessories</a></li><li><a href="https://www.southernwoods.co.nz/shop/gift-vouchers/">Gift Vouchers</a></li><li><a href="https://www.southernwoods.co.nz/shop/exotic/">Exotic</a></li><li><a href="https://www.southernwoods.co.nz/shop/climber/">Climber</a></li><li><a href="https://www.southernwoods.co.nz/shop/tools/">Pruning &amp; Trimming Tools</a></li></ul></div></div>
+	<div class="col-xs-4"><div class="category-search-wrapper"><div class="heading">Plant Categories</div><ul><li><a href="treecategory/deciduous.php">Deciduous</a></li><li><a href="treecategory/Evergreen.php">Evergreen</a></li><li><a href="treecategory/Native.php">Native</a></li><li><a href="treecategory/Grass.php">Grass &amp; Flax</a></li><li><a href="treecategory/conifer.php">Conifer</a></li><li><a href="treecategory/fruit.php">Fruit &amp; Nut</a></li><li><a href="treecategory/truffle.php">Truffle</a></li><li><a href="treecategory/shelter.php">Shelter</a></li><li><a href="treecategory/hedging.php">Hedging</a></li><li><a href="treecategory/timber.php">Timber</a></li><li><a href="treecategory/fuelwood.php">Fuel Wood</a></li><li><a href="treecategory/groundcover.php">Ground Cover</a></li><li><a href="treecategory/shrubs.php">Shrubs</a></li><li><a href="treecategory/trees.php">Trees</a></li><li><a href="treecategory/wetland.php">Wetland</a></li><li><a href="treecategory/packs.php">Packs</a></li></ul></div></div>
 	<div class="col-xs-8 center main-search-container">
 	<form method="get" action="/shop/search/">
        
