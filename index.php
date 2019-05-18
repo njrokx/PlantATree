@@ -63,30 +63,31 @@
                                             <div class="category-item"><a href="#">Gum Tree</a></div>
                                             <div class="category-item"><a href="#">Palm Tree</a></div>
                                             <div class="category-item"><a href="#">Hardwood</a></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <a class="logo" title="Treeco" href="index.php"><img src="treeco.png" alt="treeco" /></a>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a class="logo" title="Treeco" href="index.php"><img src="treeco.png" alt="treeco" /></a>
+                    </div>
                 </div>
-            </div>
-            <div class="nav-wrapper">
-                <div class="nav-container">
-                    <div class="nav">
-                        <ul aria-haspopup="true" class="cmsNav1 menuStyle10">
-                            <li data-id="1"><a href="Buy_Plants_main.php" aria-haspopup="false">Buy Plants </a></li>
-                            <li data-id="2"><a href="acessories.php" aria-haspopup="false">Accessories</a></li>
-                            <li data-id="3"><a href="Category.php" aria-haspopup="false">Categories</a></li>
-                            <li data-id="4"><a href="TreeSearch.php">Search Trees</a></li>
-                            <li data-id="5"><a href="javascript:;" aria-haspopup="true">About Us</a>
-                                <ul class="menuStyle9"></ul>
-                            </li>
-                        </ul>
+                <div class="nav-wrapper">
+                    <div class="nav-container">
+                        <div class="nav">
+                            <ul aria-haspopup="true" class="cmsNav1 menuStyle10">
+                                <li data-id="1"><a href="Buy_Plants_main.php" aria-haspopup="false">Buy Plants </a></li>
+                                <li data-id="2"><a href="acessories.php" aria-haspopup="false">Accessories</a></li>
+                                <li data-id="3"><a href="Category.php" aria-haspopup="false">Categories</a></li>
+                                <li data-id="4"><a href="TreeSearch.php">Search Trees</a></li>
+                                <li data-id="5"><a href="javascript:;" aria-haspopup="true">About Us</a>
+                                    <ul class="menuStyle9"></ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

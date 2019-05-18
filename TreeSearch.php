@@ -90,9 +90,9 @@
                     <div class="nav-container">
                         <div class="nav">
                             <ul aria-haspopup="true" class="cmsNav1 menuStyle10">
-                                <li data-id="1"><a href="buyplant.php" aria-haspopup="false">Buy Plants </a></li>
+                                <li data-id="1"><a href="Buy_Plants_main.php" aria-haspopup="false">Buy Plants </a></li>
                                 <li data-id="2"><a href="acessories.php" aria-haspopup="false">Accessories</a></li>
-                                <li data-id="3"><a href="Category_main.php" aria-haspopup="false">Categories</a></li>
+                                <li data-id="3"><a href="Category.php" aria-haspopup="false">Categories</a></li>
                                 <li data-id="4"></li>
                                 <li data-id="8"><a href="javascript:;" aria-haspopup="true">About Us</a>
                                     <ul class="menuStyle9"></ul>
@@ -178,37 +178,6 @@
                                                     <option value="Full Shade">Full Shade</option>
                                                 </select>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="attributes-wrapper">
-                                        <h6>Attributes</h6>
-                                        <div class="row">
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Tall Shelter" /><span>Tall Shelter</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Ground Durable" /><span>Ground Durable</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Animal Fodder" /><span>Animal Fodder</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Attractive Flower" /><span>Attractive Flower</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Low Hedging" /><span>Low Hedging</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Erosion Control" /><span>Erosion Control</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Attracts Birds/Bees" /><span>Attracts Birds/Bees</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Attractive Foliage" /><span>Attractive Foliage</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Timber" /><span>Timber</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Shade Tolerant" /><span>Shade Tolerant</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Attractive Bark" /><span>Attractive Bark</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Fuelwood" /><span>Fuelwood</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Ornamental" /><span>Ornamental</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Orchard/Fruit" /><span>Orchard/Fruit</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Cone/Berry/Catkin" /><span>Cone/Berry/Catkin</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Coppicing" /><span>Coppicing</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Autumn Colour" /><span>Autumn Colour</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Christmas Trees" /><span>Christmas Trees</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Possum Resistant" /><span>Possum Resistant</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Scented Foliage/Flower" /><span>Scented Foliage/Flower</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Gold Foliage" /><span>Gold Foliage</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Red/Purple Foliage" /><span>Red/Purple Foliage</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Blue/Grey Foliage" /><span>Blue/Grey Foliage</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Low Flammability" /><span>Low Flammability</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Non-poisonous to Animals" /><span>Non-poisonous to Animals</span></label></div>
-                                            <div class="col-xs-3 left attribute"><label><input type="checkbox" name="additional_attributes[]" value="Non-poisonous to Humans" /><span>Non-poisonous to Humans</span></label></div>
                                         </div>
                                     </div>
                                     <div class="buttons-wrapper left">
