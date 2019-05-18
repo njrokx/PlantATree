@@ -5,7 +5,7 @@
 <h1>Hedging</h1>
 
 <?php
-echo "Deciduous";
+echo "Hedging";
 ?>
 
 </body>

@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<h1>Shrubs</h1>
+<h1>Hardwood</h1>
 
 <?php
-echo "Deciduous";
+echo "Hardwood";
 ?>
 
 </body>

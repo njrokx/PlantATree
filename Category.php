@@ -96,22 +96,13 @@
                 <div class="category-search-wrapper">
                     <div class="heading">Plant Categories</div>
                     <ul>
-                        <li><a href="treecategory/deciduous.php">Deciduous</a></li>
+                        <li><a href="treecategory/Fruit.php">Fruit Tree</a></li>
+                        <li><a href="treecategory/Hedging.php">Hedging</a></li>
                         <li><a href="treecategory/Evergreen.php">Evergreen</a></li>
-                        <li><a href="treecategory/Native.php">Native</a></li>
-                        <li><a href="treecategory/Grass.php">Grass &amp; Flax</a></li>
-                        <li><a href="treecategory/conifer.php">Conifer</a></li>
-                        <li><a href="treecategory/fruit.php">Fruit &amp; Nut</a></li>
-                        <li><a href="treecategory/truffle.php">Truffle</a></li>
-                        <li><a href="treecategory/shelter.php">Shelter</a></li>
-                        <li><a href="treecategory/hedging.php">Hedging</a></li>
-                        <li><a href="treecategory/timber.php">Timber</a></li>
-                        <li><a href="treecategory/fuelwood.php">Fuel Wood</a></li>
-                        <li><a href="treecategory/groundcover.php">Ground Cover</a></li>
-                        <li><a href="treecategory/shrubs.php">Shrubs</a></li>
-                        <li><a href="treecategory/trees.php">Trees</a></li>
-                        <li><a href="treecategory/wetland.php">Wetland</a></li>
-                        <li><a href="treecategory/packs.php">Packs</a></li>
+                        <li><a href="treecategory/NZNative.php">NZ Native</a></li>
+                        <li><a href="treecategory/GumTree.php">Gum Tree</a></li>
+                        <li><a href="treecategory/PalmTrees.php">Palm Trees</a></li>
+                        <li><a href="treecategory/wetland.php">Harwood</a></li>
                     </ul>
                 </div>
             </div>

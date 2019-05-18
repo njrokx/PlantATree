@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<h1>Deciduous</h1>
+<h1>NZ Native Trees</h1>
 
 <?php
-echo "Deciduous";
+echo "NZ Native Trees";
 ?>
 
 </body>
