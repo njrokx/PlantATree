@@ -102,7 +102,7 @@
                         <li><a href="treecategory/NZNative.php">NZ Native</a></li>
                         <li><a href="treecategory/GumTree.php">Gum Tree</a></li>
                         <li><a href="treecategory/PalmTrees.php">Palm Trees</a></li>
-                        <li><a href="treecategory/wetland.php">Harwood</a></li>
+                        <li><a href="treecategory/Hardwood.php">Harwood</a></li>
                     </ul>
                 </div>
             </div>
@@ -118,8 +118,8 @@
                         <div class="category-wrapper">
                             <h6>Type</h6>
                             <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/10-Acer autumn blaze - foliage2.jpg" alt="Deciduous" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="10" />Deciduous
+                                    <div class="category-image"><img src="images/NZNativeGeneric.jpg" alt="NZ Native" width="101" height="101" /></div>
+                                    <input type="checkbox" name="category[]" value="10" />NZ Native
                                 </label></div>
                             <div class="category"><label>
                                     <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/11-Griselinia littoralis - foliage2.jpg" alt="Evergreen" width="101" height="101" /></div>
