@@ -41,7 +41,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="ecommerce-buttons-wrapper">
-						<a class="login-link" href="/login.php">Sign In<span class="glyphicon glyphicon-user"></span></a>						<div id="Shoppingcart_cart" class="Shoppingcart_cart" style="margin: 0px;"><div class="items"><a class="view-cart-link">View Cart<span class="icon-Barrow"></span></a> (0)</div>
+						<a class="login-link" href="/login.php">Sign In</a>						<div id="Shoppingcart_cart" class="Shoppingcart_cart" style="margin: 0px;"><div class="items"><a class="view-cart-link">View Cart</a> (0)</div>
 <div class="show-view-cart-wrapper">
 <div id="cart-summary">
 <p class="num-items"><span class="update items">0</span>
