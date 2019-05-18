@@ -52,16 +52,13 @@
                                         <hr />
                                         <p class="latest-products">Have you seen our latest products?</p>
                                         <div class="product-list">
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/deciduous/">Deciduous</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/evergreen/">Evergreen</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/native/">Native</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/grass/">Grass &amp; Flax</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/edible/">Fruit &amp; Nut</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/shelter/">Shelter</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/hedging/">Hedging</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/ground-cover/">Ground Cover</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/shrubs/">Shrubs</a></div>
-                                            <div class="category-item"><a href="https://www.southernwoods.co.nz/shop/exotic/">Exotic</a></div>
+                                            <div class="category-item"><a href="#">Fruit Tree</a></div>
+                                            <div class="category-item"><a href="#">Hedging</a></div>
+                                            <div class="category-item"><a href="#">Evergreen</a></div>
+                                            <div class="category-item"><a href="#">NZ Native</a></div>
+                                            <div class="category-item"><a href="#">Gum Tree</a></div>
+                                            <div class="category-item"><a href="#">Palm Tree</a></div>
+                                            <div class="category-item"><a href="#">Hardwood</a></div>
                                         </div><span class="close-popup"></span>
                                     </div>
                                 </div>
@@ -71,7 +68,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="logo" title="Southern Woods"><img src="treeco.png" alt="treeco" /></a>
+                        <a class="logo" title="Treeco" href="index.php"><img src="treeco.png" alt="treeco" /></a>
                         <div class="search-bar">
                             <script type="text/javascript">
                                 $(function() {

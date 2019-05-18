@@ -54,6 +54,15 @@
                                         <p class="num-items"><span class="update items">0</span>
                                             item(s) in your cart</p>
                                         <hr />
+                                        <p class="latest-products">Have you seen our latest products?</p>
+                                        <div class="product-list">
+                                            <div class="category-item"><a href="#">Fruit Tree</a></div>
+                                            <div class="category-item"><a href="#">Hedging</a></div>
+                                            <div class="category-item"><a href="#">Evergreen</a></div>
+                                            <div class="category-item"><a href="#">NZ Native</a></div>
+                                            <div class="category-item"><a href="#">Gum Tree</a></div>
+                                            <div class="category-item"><a href="#">Palm Tree</a></div>
+                                            <div class="category-item"><a href="#">Hardwood</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +72,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <a class="logo" title="Treeco"><img src="treeco.png" alt="treeco" /></a>
+                    <a class="logo" title="Treeco" href="index.php"><img src="treeco.png" alt="treeco" /></a>
                 </div>
             </div>
             <div class="nav-wrapper">
