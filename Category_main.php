@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PlantAtree</title>
+	<title>PlantATree - Categories</title>
 	<meta name="description" content="" />
 <meta name="keywords" content="" />
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
@@ -57,7 +57,7 @@ item(s) in your cart</p>
 			</div>
 			<div class="nav-wrapper">
 				<div class="nav-container">
-					<div class="nav"><ul aria-haspopup="true" class="cmsNav1 menuStyle10"><li data-id="1"><a href="buyplant.php" aria-haspopup="false">Buy Plants </a></li><li data-id="2"><a href="acessories.php" aria-haspopup="false">Accessories</a></li><li data-id="3"><a href="Category_main.php" aria-haspopup="false">Categories</a></li><li data-id="4"></li><li data-id="8"><a href="javascript:;" aria-haspopup="true">About Us</a><ul class="menuStyle9"></ul></li></ul></div>
+					<div class="nav"><ul aria-haspopup="true" class="cmsNav1 menuStyle10"><li data-id="1"><a href="Buy_Plants_main.php" aria-haspopup="false">Buy Plants </a></li><li data-id="2"><a href="acessories.php" aria-haspopup="false">Accessories</a></li><li data-id="3"><a href="Category_main.php" aria-haspopup="false">Categories</a></li><li data-id="4"></li><li data-id="8"><a href="javascript:;" aria-haspopup="true">About Us</a><ul class="menuStyle9"></ul></li></ul></div>
 				</div>
 			</div>
 		</div>

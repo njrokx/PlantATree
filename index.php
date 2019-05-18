@@ -4,9 +4,9 @@
 
 <!DOCTYPE html>
 <html>
-    <a href="Category_main.php">go to test</a>
-
-
-
-
+    <head>
+        <meta http-equiv="refresh" content="0; url=Main.php">
+    </head>
+    <body>
+    </body>
 </html>
