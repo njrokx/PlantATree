@@ -15,6 +15,9 @@
 
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
 	<meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="https://maxcdn.boostrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="https://www.southernwoods.co.nz/images/favicon.ico" />
 	<link rel="stylesheet" href="bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="https://www.southernwoods.co.nz/libraries/jquery/css/smoothness/jquery-ui.css" type="text/css" />
@@ -39,7 +42,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="ecommerce-buttons-wrapper">
-						<a class="login-link" href="/login.php">Sign In<span class="icon-SignIn"></span></a>						<div id="Shoppingcart_cart" class="Shoppingcart_cart" style="margin: 0px;"><div class="items"><a class="view-cart-link">View Cart<span class="icon-Barrow"></span></a> (0)</div>
+						<a class="login-link" href="/login.php">Sign In<span class="glyphicon glyphicon-user"></span></a>						<div id="Shoppingcart_cart" class="Shoppingcart_cart" style="margin: 0px;"><div class="items"><a class="view-cart-link">View Cart<span class="icon-Barrow"></span></a> (0)</div>
 <div class="show-view-cart-wrapper">
 <div id="cart-summary">
 <p class="num-items"><span class="update items">0</span>
