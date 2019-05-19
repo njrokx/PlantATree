@@ -103,6 +103,11 @@
                 </div>
             </div>
         </header>
+        <div class="container breadcrumb">
+            <div class="row">
+                <div class="col-xs-12"><a href="/">Home</a><a href="TreeSearch.php" class="active-breadcrumb">Tree Search</a></div>
+            </div>
+        </div>
         <div class="container content-area-nobanner">
             <div class="row">
                 <div class="col-xs-12 content">
