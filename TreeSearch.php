@@ -69,21 +69,6 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <a class="logo" title="Treeco" href="index.php"><img src="treeco.png" alt="treeco" /></a>
-                        <div class="search-bar">
-                            <script type="text/javascript">
-                                $(function() {
-                                    $("#keywordSearch").autocomplete({
-                                        minLength: 3,
-                                        source: "?function=getProductSearch&gclid",
-                                        select: function(event, ui) {
-                                            $("#keywordSearch").val(ui.item.value);
-                                            $("#keyworksearchform").submit();
-                                        }
-                                    });
-                                });
-
-                            </script>
-                        </div>
                     </div>
                 </div>
                 <div class="nav-wrapper">
