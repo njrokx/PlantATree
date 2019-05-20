@@ -76,7 +76,7 @@
                         <div class="nav">
                             <ul aria-haspopup="true" class="cmsNav1 menuStyle10">
                                 <li data-id="1"><a href="Buy_Plants_main.php" aria-haspopup="false">Buy Plants </a></li>
-                                <li data-id="2"><a href="acessories.php" aria-haspopup="false">Accessories</a></li>
+                                <li data-id="2"><a href="accessories.php" aria-haspopup="false">Accessories</a></li>
                                 <li data-id="3"><a href="Category.php" aria-haspopup="false">Categories</a></li>
                                 <li data-id="4"><a href="TreeSearch.php">Search Trees</a></li>
                                 <li data-id="5"><a href="javascript:;" aria-haspopup="true">About Us</a>
