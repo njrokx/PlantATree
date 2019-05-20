@@ -118,44 +118,32 @@
                         <div class="category-wrapper">
                             <h6>Type</h6>
                             <div class="category"><label>
+                                    <div class="category-image"><img src="images/FruitTreeGeneric.jpg" alt="FruitTree" width="101" height="101" /></div>
+                                    <input type="checkbox" name="category[]" value="10" />FruitTree
+                                </label></div>
+                            <div class="category"><label>
+                                    <div class="category-image"><img src="images/HedgingGeneric.jpg" alt="Hedging" width="101" height="101" /></div>
+                                    <input type="checkbox" name="category[]" value="11" />Hedging
+                                </label></div>
+                            <div class="category"><label>
+                                    <div class="category-image"><img src="images/EvergreenGeneric.jpg" alt="Evergreen" width="101" height="101" /></div>
+                                    <input type="checkbox" name="category[]" value="12" />Evergreen
+                                </label></div>
+                            <div class="category"><label>
                                     <div class="category-image"><img src="images/NZNativeGeneric.jpg" alt="NZ Native" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="10" />NZ Native
+                                    <input type="checkbox" name="category[]" value="13" />NZ Native
                                 </label></div>
                             <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/11-Griselinia littoralis - foliage2.jpg" alt="Evergreen" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="11" />Evergreen
+                                    <div class="category-image"><img src="images/GumTreeGeneric.jpg" alt="Gum Tree" width="101" height="101" /></div>
+                                    <input type="checkbox" name="category[]" value="15" />Gum Tree
                                 </label></div>
                             <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/12-Sophora prostrata - flower2.jpg" alt="Native" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="12" />Native
+                                    <div class="category-image"><img src="images/PalmTreeGeneric.jpg" alt="Palm Tree" width="101" height="101" /></div>
+                                    <input type="checkbox" name="category[]" value="17" />Palm Tree
                                 </label></div>
                             <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/13-product-1592-2.jpg" alt="Grass &amp; Flax" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="13" />Grass &amp; Flax
-                                </label></div>
-                            <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/15-Apple Peasgood Nonsuch - fruit.jpg" alt="Fruit &amp; Nut" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="15" />Fruit &amp; Nut
-                                </label></div>
-                            <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/17-Ladbrooks - Leyland Hedge .JPG" alt="Shelter" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="17" />Shelter
-                                </label></div>
-                            <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/18-Formal Hedge.jpg" alt="Hedging" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="18" />Hedging
-                                </label></div>
-                            <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/21-product-1583-2.jpg" alt="Ground Cover" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="21" />Ground Cover
-                                </label></div>
-                            <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/22-choisya ternata - form.jpg" alt="Shrubs" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="22" />Shrubs
-                                </label></div>
-                            <div class="category"><label>
-                                    <div class="category-image"><img src="https://www.southernwoods.co.nz/uploads/Shoppingcart/28-product-1616-2.jpg" alt="Exotic" width="101" height="101" /></div>
-                                    <input type="checkbox" name="category[]" value="28" />Exotic
+                                    <div class="category-image"><img src="images/HardwoodGeneric.jpg" alt="Hardwood" width="101" height="101" /></div>
+                                    <input type="checkbox" name="category[]" value="18" />Hardwood
                                 </label></div>
                         </div>
                     </div>
