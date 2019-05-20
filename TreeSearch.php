@@ -98,7 +98,7 @@
                 <div class="col-xs-12 content">
                     <div class="row">
                         <div class="col-xs-8 center main-search-container">
-                            <form method="get" action="/shop/search/">
+                            <form method="get" action="Tree List">
                                 <h2 color="green">Search for your ideal plant</h2>
                                 <div class="main-search-wrapper">
                                     <input type="hidden" name="s" value="true" />
@@ -172,7 +172,7 @@
                                     </div>
                                     <div class="buttons-wrapper left">
                                         <a class="reset btn" href="buy-plants-online.php">Reset</a>
-                                        <span class="find-plants-btn-wrapper"><input type="submit" value="Find Plants" /></span>
+                                        <span class="find-plants-btn-wrapper"><input type="submit" value="Find Plants"/></span>
                                     </div>
                                 </div>
                             </form>
