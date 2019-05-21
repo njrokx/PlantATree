@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<h1>Fruit & Nut</h1>
+<h1>Fruit Tree</h1>
 
 <?php
-echo "Deciduous";
+echo "Fruit Tree";
 ?>
 
 </body>
