@@ -51,6 +51,13 @@
                 <div class="card z-depth-0">
                     <div class="card content center">
                         <h5>Tree Name: <?php echo $trees['name']; ?></h5>
+                        <h5>Category: <?php echo htmlspecialchars($trees['category']);?></h5>
+                        <h5>Soil Drainage Condition: <?php echo htmlspecialchars($trees['soil_drainage']);?></h5>
+                        <h5>Sunlight Condition: <?php echo htmlspecialchars($trees['sun']);?></h5>
+                        <h5>Maintainence Requirements: <?php echo htmlspecialchars($trees['maint_req']);?></h5>
+                        <h5>Max Height of Mature Tree: <?php echo htmlspecialchars($trees['max_height']);?></h5>
+                        <h5>Growth Rate: <?php echo htmlspecialchars($trees['growth_rate']);?></h5>
+                        <h5>Price: $<?php echo htmlspecialchars($trees['price']);?></h5>
 <!--
                         <h5>Tree Name: <?php echo htmlspecialchars($trees['name']); ?></h5>
                         <h5>Category: <?php echo htmlspecialchars($trees['category']);?></h5>
