@@ -14,14 +14,14 @@
 //    //close connection
 //    mysqli_close($conn);
 
-    $conn_string = "host=ec2-54-225-72-238.compute-1.amazonaws.com port=5432 dbname=dd6mqv3gs2odmu user=fyfjbkmagcjdqy password=1c408f7c3644b0db91d4c3f70ed00eae5cd328dd7d8eab2e6a5f9cd08e1d9abb"
+    $conn_string = "host=ec2-54-225-72-238.compute-1.amazonaws.com port=5432 dbname=dd6mqv3gs2odmu user=fyfjbkmagcjdqy password=1c408f7c3644b0db91d4c3f70ed00eae5cd328dd7d8eab2e6a5f9cd08e1d9abb";
     $conn = pg_connect($conn_string);
 
     if(!$conn){
         echo 'Connection error: ' . mysqli_connect_error();
     }
 
-    $sql = "SELECT * FROM tree_info ORDER BY category";
+    $sql = 'SELECT * FROM tree_info ORDER BY category';
     $result = pg_query($conn, $sql);
 
     $trees = pg_fetch_all($result, MYSQL_ASSOC);
