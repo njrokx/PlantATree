@@ -1,0 +1,9 @@
+.custom1{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.container2 {
+	width: 960px !important;
+	max-width: 960px !important;
+}
