@@ -25,16 +25,16 @@
     if (!$result) {
         echo "An error occurred.\n";
     }
-    //$trees = pg_fetch_row($result);
+
     echo pg_num_rows($result);
-    while($row = pg_fetch_row($result)){
+    $row = pg_fetch_row($result);
+    while($row){
         echo "$row[1]";
     }
 
     pg_free_result($result);
 
-    pg_close($connn);
-    //echo '<img src="images/pink_abelia_preview.jpg" />'
+    pg_close($conn);
 ?>
 
 <!DOCTYPE html>
@@ -43,7 +43,7 @@
     
     <div class="container">
         <div class="row">
-        <?php while($row = pg_fetch_row($result)){ ?>
+        <?php while($row){ ?>
             
             <div class="col s6 md3">
                 <div class="card z-depth-0">
