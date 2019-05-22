@@ -10,12 +10,7 @@
     <meta property="og:site_name" content="PlantAtree" />
     <meta property="og:type" content="Article" />
     <meta property="og:title" content="PlantAtree" />
-    <meta property="og:url" content="https://www.southernwoods.co.nz/buy-plants-online.php" />
-
-
     
-    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
-    <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" type="image/x-icon" href="symbol_icon.jpg" />
     <link rel="stylesheet" href="bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="https://www.southernwoods.co.nz/libraries/jquery/css/smoothness/jquery-ui.css" type="text/css" />
