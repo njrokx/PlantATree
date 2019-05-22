@@ -168,6 +168,15 @@
                                                     <option value="Full Shade">Full Shade</option>
                                                 </select>
                                             </div>
+                                            <div class="col-xs-3 left"><br>
+                                                <h6>Maintenance</h6>
+                                                <select name="sunlight" class="conditionsDrpDown">
+                                                    <option value="">Please Select</option>
+                                                    <option value="High">High</option>
+                                                    <option value="Medium">Medium</option>
+                                                    <option value="Low">Low</option>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="buttons-wrapper left">
