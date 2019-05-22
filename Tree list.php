@@ -134,7 +134,7 @@
              case "Silver Fir":
                  echo '<img src="images/silver_fir.jpg" alt="SilverFir" width="200" height="200" />';
                  break;
-             case Norway Maple:
+             case "Norway Maple":
                  echo '<img src="images/norway_maple.jpg" alt="NorwayMaple" width="200" height="200" />';
                  break;
              case "Upright Hornbeam":
