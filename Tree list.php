@@ -1,35 +1,20 @@
 <?php
     //connect to db
-//    include('config/db_connect.php');
-//        
-//    $sql = 'SELECT * FROM tree_info ORDER BY category';
-//
-//    $result = mysqli_query($conn, $sql);
-//
-//    $trees = mysqli_fetch_all($result, MYSQLI_ASSOC);
-//
-//    //free result from memory
-//    mysqli_free_result($result);
-//
-//    //close connection
-//    mysqli_close($conn);
+    include('config/db_connect.php');
+        
+    $sql = 'SELECT * FROM tree_info ORDER BY category';
 
-    $conn_string = "host=ec2-54-225-72-238.compute-1.amazonaws.com port=5432 dbname=dd6mqv3gs2odmu user=fyfjbkmagcjdqy password=1c408f7c3644b0db91d4c3f70ed00eae5cd328dd7d8eab2e6a5f9cd08e1d9abb";
-    $conn = pg_connect($conn_string);
+    $result = mysqli_query($conn, $sql);
 
-    if(!$conn){
-        echo 'Connection error: ' . mysqli_connect_error();
-    }
-    echo 'test';
-    $sql = 'SELECT * FROM tree_info';
-    $result = pg_query($conn, $sql);
+    $trees = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-    $trees = pg_fetch_all($result, MYSQL_ASSOC);
-    echo $trees;
+    //free result from memory
+    mysqli_free_result($result);
 
-    pg_free_result($result);
+    //close connection
+    mysqli_close($conn);
 
-    pg_close($connn);
+
     //echo '<img src="images/pink_abelia_preview.jpg" />'
 ?>
 

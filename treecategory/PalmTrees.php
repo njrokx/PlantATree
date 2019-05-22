@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Conifer</h1>
+<h1>Palm Trees</h1>
 <style>
 .container {
   position: relative;
@@ -30,7 +30,7 @@
 }
 </style>
 <div class="container">
-    <div class="center">
+    <div class="right">
  
     <img src="../images/PalmTreeGeneric.jpg" alt="Palm Tree"style="width:300px;height:400px;" >
     <div class="tree-list-name"><?php echo "Palm Tree"; ?></div>

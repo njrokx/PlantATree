@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Evergreen</h1>
+<h1>Gum Trees</h1>
 <style>
 .container {
   position: relative;
@@ -34,7 +34,6 @@
  
     <img src="../images/GumTreeGeneric.jpg" alt="Gum Tree"style="width:300px;height:400px;" >
     <div class="tree-list-name"><?php echo "Gum Tree"; ?></div>
-    <div class="tree-list-Genus"><?php echo "Conifer"; ?></div>
     <div class="tree-list-conditions"><span id="ideal">Ideal</span> Conditions: <?php echo "Full Sun"; ?></div>
     <div class="tree-list-soil">Soil: <?php echo "Versatile (well-draining)"; ?></div>
     <div class="tree-list-root">Price: <?php echo "15.95$"; ?></div>

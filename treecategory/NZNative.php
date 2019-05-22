@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Conifer</h1>
+<h1>NZ Native</h1>
 <style>
 .container {
   position: relative;
@@ -30,7 +30,7 @@
 }
 </style>
 <div class="container">
-    <div class="center">
+    <div class="right">
  
     <img src="../images/NZNativeGeneric.jpg" alt="NZ Native" style="width:300px;height:400px;" >
     <div class="tree-list-name"><?php echo "Cabbage Tree"; ?></div>
