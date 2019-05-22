@@ -15,7 +15,11 @@
     <meta property="og:site_name" content="PlantAtree" />
     <meta property="og:type" content="Article" />
     <meta property="og:title" content="PlantAtree" />
+    <meta property="og:url" content="https://www.southernwoods.co.nz/buy-plants-online.php" />
 
+
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" type="image/x-icon" href="https://www.southernwoods.co.nz/images/favicon.ico" />
     <link rel="stylesheet" href="bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="https://www.southernwoods.co.nz/libraries/jquery/css/smoothness/jquery-ui.css" type="text/css" />
@@ -94,6 +98,45 @@
             </div>
         </div>
     </div>
+  <h1 style="color:green;">Welcome To TreecCo</h1>
+ <style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #48BA0F;
+  color: black;
+  font-size: 15px;
+  padding: 16px 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: darkgreen;
+  color: greenyellow;
+}
+.btn {width: 350px;}
+</style>
+    <div class="container">
+  <img src="backgroundtree.png" alt="backgroundtree" style="width:100%">
+  <button class="btn" onclick="location.href='Category.php'">Looking For Trees</button>
+</div>
 </body>
 
 </html>
