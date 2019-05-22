@@ -49,15 +49,69 @@
     <script type="text/javascript" src="https://www.southernwoods.co.nz/includes/template.js?1557354655"></script>
     <script type="text/javascript" src="https://www.southernwoods.co.nz/includes/icheck.js"></script>
 </head>
-<h4 class="center gray-text">Tree list</h4>
 
-<div class="container">
-    <div class="row">
-        <?php foreach($trees as $trees){ ?>
-        <div class="col s6 md3">
-            <div class="card z-depth-0">
-                <div class="card content center">
-                    <?php 
+<body>
+    <div id="page3">
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="ecommerce-buttons-wrapper">
+                            <a class="login-link" href="/login.php">Sign In</a>
+                            <div id="Shoppingcart_cart" class="Shoppingcart_cart" style="margin: 0px;">
+                                <div class="items"><a class="view-cart-link">View Cart</a> (0)</div>
+                                <div class="show-view-cart-wrapper">
+                                    <div id="cart-summary">
+                                        <p class="num-items"><span class="update items">0</span>
+                                            item(s) in your cart</p>
+                                        <hr />
+                                        <p class="latest-products">Have you seen our latest products?</p>
+                                        <div class="product-list">
+                                            <div class="category-item"><a href="#">Fruit Tree</a></div>
+                                            <div class="category-item"><a href="#">Hedging</a></div>
+                                            <div class="category-item"><a href="#">Evergreen</a></div>
+                                            <div class="category-item"><a href="#">NZ Native</a></div>
+                                            <div class="category-item"><a href="#">Gum Tree</a></div>
+                                            <div class="category-item"><a href="#">Palm Tree</a></div>
+                                            <div class="category-item"><a href="#">Hardwood</a></div>
+                                        </div><span class="close-popup"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a class="logo" title="Treeco" href="index.php"><img src="treeco.png" alt="treeco" /></a>
+                    </div>
+                </div>
+                <div class="nav-wrapper">
+                    <div class="nav-container">
+                        <div class="nav">
+                            <ul aria-haspopup="true" class="cmsNav1 menuStyle10">
+                                <li data-id="1"><a href="Buy_Plants_main.php" aria-haspopup="false">Buy Plants </a></li>
+                                <li data-id="2"><a href="accessories.php" aria-haspopup="false">Accessories</a></li>
+                                <li data-id="3"><a href="Category.php" aria-haspopup="false">Categories</a></li>
+                                <li data-id="4"><a href="TreeSearch.php">Search Trees</a></li>
+                                <li data-id="5"><a href="javascript:;" aria-haspopup="true">About Us</a>
+                                    <ul class="menuStyle9"></ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <h4 class="center gray-text">Tree list</h4>
+
+        <div class="container">
+            <div class="row">
+                <?php foreach($trees as $trees){ ?>
+                <div class="col s6 md3">
+                    <div class="card z-depth-0">
+                        <div class="card content center">
+                            <?php 
                     switch($trees['name']){
                         case "White Agapanthus":
                             echo '<img src="images/white_agapanthus.jpg" alt="WhiteAgapanthus" width="200" height="200" />';
@@ -67,22 +121,23 @@
                             break;
                     }
                     ?>
-                    <h5>Tree Name: <?php echo $trees['name']; ?></h5>
-                    <h5>Category: <?php echo htmlspecialchars($trees['category']);?></h5>
-                    <h5>Soil Drainage Condition: <?php echo htmlspecialchars($trees['soil_drainage']);?></h5>
-                    <h5>Sunlight Condition: <?php echo htmlspecialchars($trees['sun']);?></h5>
-                    <h5>Maintainence Requirements: <?php echo htmlspecialchars($trees['maint_req']);?></h5>
-                    <h5>Max Height of Mature Tree: <?php echo htmlspecialchars($trees['max_height']);?></h5>
-                    <h5>Growth Rate: <?php echo htmlspecialchars($trees['growth_rate']);?></h5>
-                    <h5>Price: $<?php echo htmlspecialchars($trees['price']);?></h5>
-                    <a class="brand-text" href="#">more info</a>
+                            <h5>Tree Name: <?php echo $trees['name']; ?></h5>
+                            <h5>Category: <?php echo htmlspecialchars($trees['category']);?></h5>
+                            <h5>Soil Drainage Condition: <?php echo htmlspecialchars($trees['soil_drainage']);?></h5>
+                            <h5>Sunlight Condition: <?php echo htmlspecialchars($trees['sun']);?></h5>
+                            <h5>Maintainence Requirements: <?php echo htmlspecialchars($trees['maint_req']);?></h5>
+                            <h5>Max Height of Mature Tree: <?php echo htmlspecialchars($trees['max_height']);?></h5>
+                            <h5>Growth Rate: <?php echo htmlspecialchars($trees['growth_rate']);?></h5>
+                            <h5>Price: $<?php echo htmlspecialchars($trees['price']);?></h5>
+                            <a class="brand-text" href="#">more info</a>
+                        </div>
+                    </div>
                 </div>
+                <?php } ?>
             </div>
+
         </div>
-        <?php } ?>
     </div>
-
-
-</div>
+</body>
 
 </html>
