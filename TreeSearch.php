@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://www.southernwoods.co.nz/buy-plants-online.php" />
 
 
-    
+
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" type="image/x-icon" href="symbol_icon.jpg" />
@@ -130,48 +130,48 @@
                                     <div class="conditions-wrapper">
                                         <div class="row">
                                             <div class="col-xs-3 left">
-                                                <h6>Growth</h6>
-                                                <select name="growth" class="conditionsDrpDown">
+                                                <h6>Soil Drainage</h6>
+                                                <select name="soilDrainage" class="conditionsDrpDown">
                                                     <option value="">Please Select</option>
+                                                    <option value="Fast">Fast</option>
+                                                    <option value="Med">Med</option>
                                                     <option value="Slow">Slow</option>
-                                                    <option value="Medium">Medium</option>
-                                                    <option value="Rapid">Rapid</option>
-                                                    <option value="Very Rapid">Very Rapid</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-xs-3 left">
-                                                <h6>Site Conditions</h6>
-                                                <select name="site_conditions" class="conditionsDrpDown">
-                                                    <option value="">Please Select</option>
-                                                    <option value="Coastal/Salt Wind">Coastal/Salt Wind</option>
-                                                    <option value="Exposed">Exposed</option>
-                                                    <option value="Cold/Frosty">Cold/Frosty</option>
-                                                    <option value="Clay Soil">Clay Soil</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-xs-3 left">
-                                                <h6>Drainage</h6>
-                                                <select name="drainage" class="conditionsDrpDown">
-                                                    <option value="">Please Select</option>
-                                                    <option value="Dry">Dry</option>
-                                                    <option value="Moist">Moist</option>
-                                                    <option value="Wet">Wet</option>
+                                                    <option value="Anything">Anything</option>
                                                 </select>
                                             </div>
                                             <div class="col-xs-3 left">
                                                 <h6>Sunlight</h6>
                                                 <select name="sunlight" class="conditionsDrpDown">
                                                     <option value="">Please Select</option>
-                                                    <option value="Full Sun">Full Sun</option>
-                                                    <option value="Partial Sun">Partial Sun</option>
-                                                    <option value="Full Shade">Full Shade</option>
+                                                    <option value="Sunny">Sunny</option>
+                                                    <option value="Medium">Medium</option>
+                                                    <option value="Shade">Shade</option>
+                                                    <option value="Anything">Anything</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-3 left">
+                                                <h6>Maintenance Requirements</h6>
+                                                <select name="maintReq" class="conditionsDrpDown">
+                                                    <option value="">Please Select</option>
+                                                    <option value="High">High</option>
+                                                    <option value="Med">Med</option>
+                                                    <option value="Low">Low</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-3 left">
+                                                <h6>Growth Rate</h6>
+                                                <select name="growthRate" class="conditionsDrpDown">
+                                                    <option value="">Please Select</option>
+                                                    <option value="Fast">Fast</option>
+                                                    <option value="Medium">Medium</option>
+                                                    <option value="Slow">Slow</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="buttons-wrapper left">
                                         <a class="reset btn" href="TreeSearch.php">Reset</a>
-                                        <span class="find-plants-btn-wrapper"><input type="submit" value="Find Plants"/></span>
+                                        <span class="find-plants-btn-wrapper"><input type="submit" value="Find Plants" /></span>
                                     </div>
                                 </div>
                             </form>

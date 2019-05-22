@@ -61,7 +61,7 @@
     </div>
     <!--Submit button/ -->
     <input type="submit">
-    </form>
+    
 
     <!--need to calc & echo the price-->
 
