@@ -49,53 +49,6 @@
     <script type="text/javascript" src="https://www.southernwoods.co.nz/includes/template.js?1557354655"></script>
     <script type="text/javascript" src="https://www.southernwoods.co.nz/includes/icheck.js"></script>
 </head>
-<?php
-    function pic(){
-         switch($trees['name']){
-             case "White Agapanthus":
-                 echo '<img src="images/white_agapanthus.jpg" alt="WhiteAgapanthus" width="200" height="200" />';
-                 break;
-             case "Pink Abelia":
-                 echo '<img src="images/pink_abelia_full.jpg" alt="PinkAbelia" width="200" height="200" />';
-                 break;
-             case "Apple Granny Smith":
-                 echo '<img src="images/granny_smith.jpg" alt="PinkAbelia" width="200" height="200" />';
-                 break;
-             case "Lemon Tree":
-                 echo '<img src="images/lemon_tree.jpg" alt="PinkAbelia" width="200" height="200" />';
-                 break;
-             case "Shinning Gum":
-                 echo '<img src="images/shining_gum.jpg" alt="ShiningGum" width="200" height="200" />';
-                 break;
-             case "Southern Mahogany":
-                 echo '<img src="images/south_maho.jpg" alt="SouthernMahogany" width="200" height="200" />';
-                 break;
-             case "Silver Fir":
-                 echo '<img src="images/silver_fir.jpg" alt="SilverFir" width="200" height="200" />';
-                 break;
-             case Norway Maple:
-                 echo '<img src="images/norway_maple.jpg" alt="NorwayMaple" width="200" height="200" />';
-                 break;
-             case "Upright Hornbeam":
-                 echo '<img src="images/up_horn.jpg" alt="UprightHornbeam" width="200" height="200" />';
-                 break;
-             case "Upright Box":
-                 echo '<img src="images/up_box.jpg" alt="UprightBox" width="200" height="200" />';
-                 break;
-             case "Wind Grass":
-                 echo '<img src="images/wind_grass.jpg" alt="WindGrass" width="200" height="200" />';
-             case "Purple Bidibidi":
-                 echo '<img src="images/purp_bidi.jpg" alt="PurpleBidibidi" width="200" height="200" />';
-                 break;
-             case "Pygmy Date Palm":
-                 echo '<img src="images/pygmy_date.jpg" alt="PygmyDatePalm" width="200" height="200" />';
-                 break;
-             case "Ponytail Palm":
-                 echo '<img src="images/ponytail_palm.jpg" alt="PonytailPalm" width="200" height="200" />';
-                 break;
-                    }
-    }
-?>
 
 <body>
     <div id="page3">
@@ -159,7 +112,49 @@
                     <div class="card z-depth-0">
                         <div class="card content center">
                             <?php
-                                pic();
+                                switch($trees['name']){
+             case "White Agapanthus":
+                 echo '<img src="images/white_agapanthus.jpg" alt="WhiteAgapanthus" width="200" height="200" />';
+                 break;
+             case "Pink Abelia":
+                 echo '<img src="images/pink_abelia_full.jpg" alt="PinkAbelia" width="200" height="200" />';
+                 break;
+             case "Apple Granny Smith":
+                 echo '<img src="images/granny_smith.jpg" alt="PinkAbelia" width="200" height="200" />';
+                 break;
+             case "Lemon Tree":
+                 echo '<img src="images/lemon_tree.jpg" alt="PinkAbelia" width="200" height="200" />';
+                 break;
+             case "Shinning Gum":
+                 echo '<img src="images/shining_gum.jpg" alt="ShiningGum" width="200" height="200" />';
+                 break;
+             case "Southern Mahogany":
+                 echo '<img src="images/south_maho.jpg" alt="SouthernMahogany" width="200" height="200" />';
+                 break;
+             case "Silver Fir":
+                 echo '<img src="images/silver_fir.jpg" alt="SilverFir" width="200" height="200" />';
+                 break;
+             case Norway Maple:
+                 echo '<img src="images/norway_maple.jpg" alt="NorwayMaple" width="200" height="200" />';
+                 break;
+             case "Upright Hornbeam":
+                 echo '<img src="images/up_horn.jpg" alt="UprightHornbeam" width="200" height="200" />';
+                 break;
+             case "Upright Box":
+                 echo '<img src="images/up_box.jpg" alt="UprightBox" width="200" height="200" />';
+                 break;
+             case "Wind Grass":
+                 echo '<img src="images/wind_grass.jpg" alt="WindGrass" width="200" height="200" />';
+             case "Purple Bidibidi":
+                 echo '<img src="images/purp_bidi.jpg" alt="PurpleBidibidi" width="200" height="200" />';
+                 break;
+             case "Pygmy Date Palm":
+                 echo '<img src="images/pygmy_date.jpg" alt="PygmyDatePalm" width="200" height="200" />';
+                 break;
+             case "Ponytail Palm":
+                 echo '<img src="images/ponytail_palm.jpg" alt="PonytailPalm" width="200" height="200" />';
+                 break;
+                    }
                             ?>
                             <h5>Tree Name: <?php echo $trees['name']; ?></h5>
                             <h5>Category: <?php echo htmlspecialchars($trees['category']);?></h5>
