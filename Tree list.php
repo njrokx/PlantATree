@@ -145,6 +145,7 @@
                  break;
              case "Wind Grass":
                  echo '<img src="images/wind_grass.jpg" alt="WindGrass" width="200" height="200" />';
+                 break;
              case "Purple Bidibidi":
                  echo '<img src="images/purp_bidi.jpg" alt="PurpleBidibidi" width="200" height="200" />';
                  break;
