@@ -16,7 +16,7 @@
     
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.southernwoods.co.nz/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="symbol_icon.jpg" />
     <link rel="stylesheet" href="bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="https://www.southernwoods.co.nz/libraries/jquery/css/smoothness/jquery-ui.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="stysheet1.css" />
@@ -32,7 +32,6 @@
     <script type="text/javascript" src="https://www.southernwoods.co.nz/includes/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://www.southernwoods.co.nz/includes/template.js?1557354655"></script>
     <script type="text/javascript" src="https://www.southernwoods.co.nz/includes/icheck.js"></script>
-</head>
 </head>
 
 <body>
@@ -166,15 +165,6 @@
                                                     <option value="Full Sun">Full Sun</option>
                                                     <option value="Partial Sun">Partial Sun</option>
                                                     <option value="Full Shade">Full Shade</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-xs-3 left"><br>
-                                                <h6>Maintenance</h6>
-                                                <select name="sunlight" class="conditionsDrpDown">
-                                                    <option value="">Please Select</option>
-                                                    <option value="High">High</option>
-                                                    <option value="Medium">Medium</option>
-                                                    <option value="Low">Low</option>
                                                 </select>
                                             </div>
                                         </div>
