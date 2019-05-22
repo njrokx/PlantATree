@@ -58,39 +58,39 @@
              case "Pink Abelia":
                  echo '<img src="images/pink_abelia_full.jpg" alt="PinkAbelia" width="200" height="200" />';
                  break;
-             case Apple Granny Smith:
+             case "Apple Granny Smith":
                  echo '<img src="images/granny_smith.jpg" alt="PinkAbelia" width="200" height="200" />';
                  break;
-             case Lemon Tree:
+             case "Lemon Tree":
                  echo '<img src="images/lemon_tree.jpg" alt="PinkAbelia" width="200" height="200" />';
                  break;
-             case Shinning Gum:
+             case "Shinning Gum":
                  echo '<img src="images/shining_gum.jpg" alt="ShiningGum" width="200" height="200" />';
                  break;
-             case Southern Mahogany:
+             case "Southern Mahogany":
                  echo '<img src="images/south_maho.jpg" alt="SouthernMahogany" width="200" height="200" />';
                  break;
-             case Silver Fir:
+             case "Silver Fir":
                  echo '<img src="images/silver_fir.jpg" alt="SilverFir" width="200" height="200" />';
                  break;
              case Norway Maple:
                  echo '<img src="images/norway_maple.jpg" alt="NorwayMaple" width="200" height="200" />';
                  break;
-             case Upright Hornbeam:
+             case "Upright Hornbeam":
                  echo '<img src="images/up_horn.jpg" alt="UprightHornbeam" width="200" height="200" />';
                  break;
-             case Upright Box:
+             case "Upright Box":
                  echo '<img src="images/up_box.jpg" alt="UprightBox" width="200" height="200" />';
                  break;
-             case Wind Grass:
+             case "Wind Grass":
                  echo '<img src="images/wind_grass.jpg" alt="WindGrass" width="200" height="200" />';
-             case Purple Bidibidi:
+             case "Purple Bidibidi":
                  echo '<img src="images/purp_bidi.jpg" alt="PurpleBidibidi" width="200" height="200" />';
                  break;
-             case Pygmy Date Palm:
+             case "Pygmy Date Palm":
                  echo '<img src="images/pygmy_date.jpg" alt="PygmyDatePalm" width="200" height="200" />';
                  break;
-             case Ponytail Palm:
+             case "Ponytail Palm":
                  echo '<img src="images/ponytail_palm.jpg" alt="PonytailPalm" width="200" height="200" />';
                  break;
                     }
