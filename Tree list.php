@@ -45,7 +45,7 @@
     
     <div class="container">
         <div class="row">
-        <?php foreach($trees as $trees{ ?>
+        <?php foreach($trees as $trees){ ?>
             
             <div class="col s6 md3">
                 <div class="card z-depth-0">
