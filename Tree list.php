@@ -19,6 +19,15 @@
     if(!$conn){
         echo 'Connection error: ' . mysqli_connect_error();
     }
+
+    $sql = 'SELECT * FROM tree_info ORDER BY category';
+    $result = pg_query($conn, $sql);
+
+    $trees = pg_fetch_all($result, MYSQL_ASSOC);
+
+    pg_free_result($result);
+
+    pg_close($connn);
     //echo '<img src="images/pink_abelia_preview.jpg" />'
 ?>
 
