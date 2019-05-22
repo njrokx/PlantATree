@@ -26,11 +26,13 @@
         echo "An error occurred.\n";
     }
 
+    $trees = pg_fetch_all($result, PGSQL_ASSOC);
+
     echo pg_num_rows($result);
     $row = pg_fetch_row($result);
-    while($row){
-        echo "$row[1]";
-    }
+//    while($row){
+//        echo "$row[1]";
+//    }
 
     pg_free_result($result);
 
@@ -43,12 +45,12 @@
     
     <div class="container">
         <div class="row">
-        <?php while($row){ ?>
+        <?php foreach($trees as $trees{ ?>
             
             <div class="col s6 md3">
                 <div class="card z-depth-0">
                     <div class="card content center">
-                        <h5>Tree Name: <?php echo "$row[1]"; ?></h5>
+                        <h5>Tree Name: <?php echo $trees['name']; ?></h5>
 <!--
                         <h5>Tree Name: <?php echo htmlspecialchars($trees['name']); ?></h5>
                         <h5>Category: <?php echo htmlspecialchars($trees['category']);?></h5>
