@@ -21,10 +21,11 @@
         echo 'Connection error: ' . mysqli_connect_error();
     }
 
-    $sql = 'SELECT * FROM tree_info ORDER BY category';
+    $sql = 'SELECT * FROM tree_info';
     $result = pg_query($conn, $sql);
 
     $trees = pg_fetch_all($result, MYSQL_ASSOC);
+    echo $trees;
 
     pg_free_result($result);
 
