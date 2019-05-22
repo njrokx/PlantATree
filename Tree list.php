@@ -21,9 +21,11 @@
         echo 'Connection error: ' . mysqli_connect_error();
     }
 
-    $sql = 'SELECT * FROM public.tree_info';
-    $result = pg_query($conn, $sql);
-
+    //$sql = 'SELECT * FROM public.tree_info';
+    $result = pg_query($conn, "SELECT * FROM tree_info");
+    if (!$result) {
+        echo "An error occurred.\n";
+    }
     $trees = pg_fetch_all($result, MYSQL_ASSOC);
     echo $trees;
 
