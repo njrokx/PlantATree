@@ -96,8 +96,8 @@
                 <div class="category-search-wrapper">
                     <div class="heading">Plant Categories</div>
                     <ul>
-                        <li><a href="treecategory/Fruit.php">Fruit Tree</a></li>
-                        <li><a href="treecategory/Hedging.php">Hedging</a></li>
+                        <li><a href="treecategory/fruit.php">Fruit Tree</a></li>
+                        <li><a href="treecategory/hedging.php">Hedging</a></li>
                         <li><a href="treecategory/Evergreen.php">Evergreen</a></li>
                         <li><a href="treecategory/NZNative.php">NZ Native</a></li>
                         <li><a href="treecategory/GumTree.php">Gum Tree</a></li>
