@@ -1,20 +1,24 @@
 <?php
     //connect to db
-    include('config/db_connect.php');
-        
-    $sql = 'SELECT * FROM tree_info ORDER BY category';
+//    include('config/db_connect.php');
+//        
+//    $sql = 'SELECT * FROM tree_info ORDER BY category';
+//
+//    $result = mysqli_query($conn, $sql);
+//
+//    $trees = mysqli_fetch_all($result, MYSQLI_ASSOC);
+//
+//    //free result from memory
+//    mysqli_free_result($result);
+//
+//    //close connection
+//    mysqli_close($conn);
 
-    $result = mysqli_query($conn, $sql);
+    $conn = pg_connect(getenv("DATABASE_URL"));
 
-    $trees = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-    //free result from memory
-    mysqli_free_result($result);
-
-    //close connection
-    mysqli_close($conn);
-
-
+    if(!$conn){
+        echo 'Connection error: ' . mysqli_connect_error();
+    }
     //echo '<img src="images/pink_abelia_preview.jpg" />'
 ?>
 
