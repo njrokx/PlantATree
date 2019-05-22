@@ -55,7 +55,7 @@
                         <h5>Growth Rate: <?php echo htmlspecialchars($trees['growth_rate']);?></h5>
                         <h5>Price: $<?php echo htmlspecialchars($trees['price']);?></h5>
 -->
-                        <h5>Tree Name: <?php $row[1]); ?></h5>
+                        <h5>Tree Name: <?php echo "$row[1]"; ?></h5>
                         
                     </div>
                     <div class="card-action right-align">
