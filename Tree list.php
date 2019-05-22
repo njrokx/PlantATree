@@ -26,7 +26,7 @@
         echo "An error occurred.\n";
     }
     //$trees = pg_fetch_row($result);
-    //echo "$trees";
+    echo "pg_num_rows($result)";
 
     pg_free_result($result);
 
