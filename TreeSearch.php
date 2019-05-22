@@ -171,7 +171,7 @@
                                         </div>
                                     </div>
                                     <div class="buttons-wrapper left">
-                                        <a class="reset btn" href="buy-plants-online.php">Reset</a>
+                                        <a class="reset btn" href="TreeSearch.php">Reset</a>
                                         <span class="find-plants-btn-wrapper"><input type="submit" value="Find Plants"/></span>
                                     </div>
                                 </div>
