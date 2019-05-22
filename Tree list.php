@@ -1,18 +1,4 @@
 <?php
-    //connect to db
-//    include('config/db_connect.php');
-//        
-//    $sql = 'SELECT * FROM tree_info ORDER BY category';
-//
-//    $result = mysqli_query($conn, $sql);
-//
-//    $trees = mysqli_fetch_all($result, MYSQLI_ASSOC);
-//
-//    //free result from memory
-//    mysqli_free_result($result);
-//
-//    //close connection
-//    mysqli_close($conn);
 
     $conn_string = "host=ec2-54-225-72-238.compute-1.amazonaws.com port=5432 dbname=dd6mqv3gs2odmu user=fyfjbkmagcjdqy password=1c408f7c3644b0db91d4c3f70ed00eae5cd328dd7d8eab2e6a5f9cd08e1d9abb";
     $conn = pg_connect($conn_string);
@@ -74,9 +60,10 @@
                     <?php 
                     switch($trees['name']){
                         case "White Agapanthus":
+                            echo '<img src="images/white_agapanthus.jpg" alt="WhiteAgapanthus" width="200" height="200" />';
                             break;
                         case "Pink Abelia":
-                            echo '<img src="images/pink_abelia_full" alt="PinkAbelia" width="200" height="200" />';
+                            echo '<img src="images/pink_abelia_full.jpg" alt="PinkAbelia" width="200" height="200" />';
                             break;
                     }
                     ?>
