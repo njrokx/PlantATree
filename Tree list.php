@@ -20,8 +20,8 @@
     if(!$conn){
         echo 'Connection error: ' . mysqli_connect_error();
     }
-    echo 'test';
-    $sql = 'SELECT * FROM tree_info';
+
+    $sql = 'SELECT * FROM public.tree_info';
     $result = pg_query($conn, $sql);
 
     $trees = pg_fetch_all($result, MYSQL_ASSOC);
