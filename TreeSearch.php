@@ -150,7 +150,7 @@
                                                 </select>
                                             </div>
                                             <div class="col-xs-3 left">
-                                                <h6>Maintenance Requirements</h6>
+                                                <h6>Maintenance</h6>
                                                 <select name="maintReq" class="conditionsDrpDown">
                                                     <option value="">Please Select</option>
                                                     <option value="High">High</option>
