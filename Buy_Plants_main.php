@@ -10,7 +10,7 @@
         echo 'connction error' . mysqli_connect_error();
     }
 
-    $result = pg_query($conn, "SELECT DISTINCT category FROM tree_info ORDER BY category");
+    $result = pg_query($conn, "SELECT * FROM tree_info ORDER BY category");
 
     if (!$result) {
         echo "An error occurred.\n";
@@ -125,22 +125,23 @@
                 <div class="col-xs-12 content">
                     <div class="row">
                         <div class="col-xs-8 center main-search-container">
+                            <h2 class="center green-text"> Please select the tree you want to buy and quantity</h2>
                             <form>
                                 <div class="custom1">
                                     <h6>Tree Type</h6>
-                                    <select name="growth" class="conditionsDrpDown">
+                                    <select name="type" class="conditionsDrpDown">
                                         <option value="">Please Select</option>
                                         <?php foreach($trees as $trees){ ?>
-                                        <option name="treeType"><?php echo htmlspecialchars($trees['category']); ?></option>
+                                        <option name="treeType"><?php echo htmlspecialchars($trees['name']); ?></option>
                                         <?php } ?>
                                     </select>
                                 </div>
-                                <div class="">
+                                <div class="left">
                                     <label>Quantity</label>
                                     <input type="text" value="quantity">
                                 </div>
                                 <!--Submit button/ -->
-                                <div class="button-wrapper left">
+                                <div class="buttons-wrapper right">
                                     <span class="find-plant-btn-wrapper">
                                         <input type="submit" value="submit"></span>
 
