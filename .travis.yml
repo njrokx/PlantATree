@@ -1,1 +1,2 @@
 language: php
+rvm: 5.5
