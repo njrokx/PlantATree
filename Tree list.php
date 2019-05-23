@@ -133,7 +133,7 @@
                  echo '<img src="images/south_maho.jpg" alt="SouthernMahogany" width="200" height="200" />';
                  break;
              case "Silver Fir":
-                 echo '<img src="images/silver_fir.jepg" alt="SilverFir" width="200" height="200" />';
+                 echo '<img src="images/silver_fir.jpg" alt="SilverFir" width="200" height="200" />';
                  break;
              case "Norway Maple":
                  echo '<img src="images/norway_maple.jpg" alt="NorwayMaple" width="200" height="200" />';
