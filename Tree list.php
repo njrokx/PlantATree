@@ -133,7 +133,7 @@
                  echo '<img src="images/south_maho.jpg" alt="SouthernMahogany" width="200" height="200" />';
                  break;
              case "Silver Fir":
-                 echo '<img src="images/silver_fir.jpg" alt="SilverFir" width="200" height="200" />';
+                 echo '<img src="images/silver_fir.jepg" alt="SilverFir" width="200" height="200" />';
                  break;
              case "Norway Maple":
                  echo '<img src="images/norway_maple.jpg" alt="NorwayMaple" width="200" height="200" />';
@@ -166,10 +166,10 @@
                             <h5>Max Height of Mature Tree: <?php echo htmlspecialchars($trees['max_height']);?></h5>
                             <h5>Growth Rate: <?php echo htmlspecialchars($trees['growth_rate']);?></h5>
                             <h5>Price: $<?php echo htmlspecialchars($trees['price']);?></h5>
-                            <a class="brand-text" href="#">more info</a><br>
+                            <a class="brand-text" href="#">more info</a>
                         </div>
                     </div>
-                </div>
+                </div><br>
                 <?php } ?>
             </div>
 
