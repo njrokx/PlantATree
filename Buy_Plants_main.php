@@ -124,13 +124,12 @@
                     <?php } ?>
                 </select>
             </div>
-
-
             <div>
                 <label>Quantity</label>
                 <input type=text value="quantity">
             </div>
-
+            <!--Submit button/ -->
+            <input type="submit">
 
             <div>
                 <input type="submit" , value="submit">
