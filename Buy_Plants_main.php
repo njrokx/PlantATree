@@ -63,7 +63,7 @@
 
 <body>
 
-    <div id="page1">
+    <div id="page5">
         <header id="header">
             <div class="container">
                 <div class="row">
@@ -115,27 +115,42 @@
                 </div>
             </div>
         </header>
-        <form>
-            <div class="custom1">
-                <h6>Tree Type</h6>
-                <select name="growth" class="conditionsDrpDown">
-                    <option value="">Please Select</option>
-                    <?php foreach($trees as $trees){ ?>
-                    <option name="treeType"><?php echo htmlspecialchars($trees['category']); ?></option>
-                    <?php } ?>
-                </select>
+        <div class="container breadcrumb">
+            <div class="row">
+                <div class="col-xs-12"><a href="/">Home</a><a href="Buy_Plants_main.php" class="active-breadcrumb">Buy Plants</a></div>
             </div>
-            <div class="">
-                <label>Quantity</label>
-                <input type="text" value="quantity" >
+        </div>
+        <div class="container content-area-nobanner">
+            <div class="row">
+                <div class="col-xs-12 content">
+                    <div class="row">
+                        <div class="col-xs-8 center main-search-container">
+                            <form>
+                                <div class="custom1">
+                                    <h6>Tree Type</h6>
+                                    <select name="growth" class="conditionsDrpDown">
+                                        <option value="">Please Select</option>
+                                        <?php foreach($trees as $trees){ ?>
+                                        <option name="treeType"><?php echo htmlspecialchars($trees['category']); ?></option>
+                                        <?php } ?>
+                                    </select>
+                                </div>
+                                <div class="">
+                                    <label>Quantity</label>
+                                    <input type="text" value="quantity">
+                                </div>
+                                <!--Submit button/ -->
+                                <div class="button-wrapper left">
+                                    <span class="find-plant-btn-wrapper">
+                                        <input type="submit" value="submit"></span>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!--Submit button/ -->
-            <div class="button-wrapper left">
-                <span class="find-plant-btn-wrapper">
-                <input type="submit" value="submit"></span>
-                
-            </div>
-        </form>
+        </div>
     </div>
 </body>
 
