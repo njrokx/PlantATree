@@ -1,21 +1,25 @@
 <?php
 
+    $conn_string = "host=ec2-54-225-72-238.compute-1.amazonaws.com port=5432 dbname=dd6mqv3gs2odmu user=fyfjbkmagcjdqy password=1c408f7c3644b0db91d4c3f70ed00eae5cd328dd7d8eab2e6a5f9cd08e1d9abb";
+
     //connect to database
-    $conn = mysqli_connect('localhost','kmor613','ravinX57','plantatree');
+    $conn = pg_connect($conn_string);
         
     //check connection
     if(!$conn){
-        echo 'connction error' . mysqli_my_connect_error();
+        echo 'connction error' . mysqli_connect_error();
     }
 
-    $sql = 'SELECT * FROM tree_info ORDER BY category';
+    $result = pg_query($conn, "SELECT * FROM tree_info ORDER BY category");
 
-    $result = mysqli_query($conn, $sql);
+    if (!$result) {
+        echo "An error occurred.\n";
+    }
 
-    $trees = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    $trees = pg_fetch_all($result, PGSQL_ASSOC);
 
     //free result from memory
-    mysqli_free_result($result);
+    pg_free_result($result);
 
     //close connection
     mysqli_close($conn);

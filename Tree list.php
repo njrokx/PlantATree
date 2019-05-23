@@ -8,6 +8,7 @@
     }
 
     $result = pg_query($conn, "SELECT * FROM tree_info ORDER BY category");
+
     if (!$result) {
         echo "An error occurred.\n";
     }
