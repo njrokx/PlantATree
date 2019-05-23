@@ -39,11 +39,8 @@
     <meta property="og:site_name" content="PlantAtree" />
     <meta property="og:type" content="Article" />
     <meta property="og:title" content="PlantAtree" />
-    <meta property="og:url" content="https://www.southernwoods.co.nz/buy-plants-online.php" />
 
 
-    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
-    <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" type="image/x-icon" href="https://www.southernwoods.co.nz/images/favicon.ico" />
     <link rel="stylesheet" href="bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="https://www.southernwoods.co.nz/libraries/jquery/css/smoothness/jquery-ui.css" type="text/css" />
@@ -124,19 +121,19 @@
                 <select name="growth" class="conditionsDrpDown">
                     <option value="">Please Select</option>
                     <?php foreach($trees as $trees){ ?>
-                    <option name="treeType"><?php echo htmlspecialchars($trees['name']); ?></option>
+                    <option name="treeType"><?php echo htmlspecialchars($trees['category']); ?></option>
                     <?php } ?>
                 </select>
             </div>
-            <div>
+            <div class="">
                 <label>Quantity</label>
-                <input type=text value="quantity">
+                <input type="text" value="quantity" >
             </div>
             <!--Submit button/ -->
-            <input type="submit">
-
-            <div>
-                <input type="submit" , value="submit">
+            <div class="button-wrapper left">
+                <span class="find-plant-btn-wrapper">
+                <input type="submit" value="submit"></span>
+                
             </div>
         </form>
     </div>
