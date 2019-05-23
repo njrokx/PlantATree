@@ -166,7 +166,7 @@
                             <h5>Max Height of Mature Tree: <?php echo htmlspecialchars($trees['max_height']);?></h5>
                             <h5>Growth Rate: <?php echo htmlspecialchars($trees['growth_rate']);?></h5>
                             <h5>Price: $<?php echo htmlspecialchars($trees['price']);?></h5>
-                            <a class="brand-text" href="#">more info</a><br>
+                            <br>
                         </div>
                     </div>
                 </div>
