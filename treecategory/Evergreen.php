@@ -30,7 +30,7 @@
 }
 </style>
 <div class="container">
-    <div class="right">
+    <div class="topleft">
  
     <img src="../images/Aloe_vera.jpg" alt="<Evergreen"style="width:300px;height:400px;" >
     <div class="tree-list-name"><?php echo "Aloe Vera"; ?></div>
