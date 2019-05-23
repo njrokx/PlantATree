@@ -10,7 +10,7 @@
         echo 'connction error' . mysqli_connect_error();
     }
 
-    $result = pg_query($conn, "SELECT * FROM tree_info ORDER BY category");
+    $result = pg_query($conn, "SELECT DISTINCT category FROM tree_info ORDER BY category");
 
     if (!$result) {
         echo "An error occurred.\n";
